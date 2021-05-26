@@ -1,0 +1,10 @@
+1. 2nd index for slicing is exclusive so we add one
+
+2. 1st index is inclusive
+
+3. negative indexes start at -1
+
+4. positive indexes start at 0
+
+
+
