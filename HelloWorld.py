@@ -17,11 +17,11 @@ print(round(0.6666, 2))
 
 print(17 % 2) # shift 5
 
-print(13 // 2)
+print(13 // 2) # floor division
 print(2 ** 2)
 
-name="Sai"
-age=17
+name= "Sai"
+age= 17
 
 print(name)
 print(age)
