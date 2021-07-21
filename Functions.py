@@ -14,8 +14,6 @@
 def print_hello_world():
     print("Hello World")
 
-
-
 print_hello_world()
 print(23 * 16)
 if 10 * 10 > 50:
@@ -33,11 +31,30 @@ def calculate_user_age(current_year, user_dob):
 
 user_age = calculate_user_age(current_year, user_dob)
 print(user_age)
+
+
+# function declaration
+def calculator(first_number, operation, second_number):
+    if operation == "+":
+        print(first_number + second_number)
+    elif operation == '-':
+        print(first_number - second_number)
+    elif operation == 'x':
+        print(first_number * second_number)
+    elif operation == '/':
+        print(first_number / second_number)
+    else:
+        print("Our calculator doesn't support these features yet!")
+
+
+result = calculator(7, "+", 8)
+print(result)
+
+
    
 
 
-
-
+# Given 2 numbers from the user (input), if their product is greater than 1000, RETURN (ouput) their sum, otherwise if the product is less than 1000, RETURN their product
 
 
 
